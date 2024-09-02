@@ -1,0 +1,43 @@
+.play-list-item-main-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.img-title-genre-container {
+  display: flex;
+}
+
+.img-title-genre-container img {
+  width: 180px;
+  margin-right: 20px;
+}
+
+.genre-para {
+  color: #3b82f6;
+}
+
+.duration-and-delete-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration-and-delete-container p {
+  font-size: 18px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  margin: 0 15px;
+}
+
+.delete-btn-icon {
+  width: 20px;
+  height: 20px;
+}
